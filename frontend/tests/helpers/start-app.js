@@ -1,7 +1,7 @@
 /* global require */
 
-var Application = require('rubric/app')['default'];
-var Router = require('rubric/router')['default'];
+var Application = require('ruberry/app')['default'];
+var Router = require('ruberry/router')['default'];
 
 export default function startApp(attrs) {
   var App;
