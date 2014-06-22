@@ -1,10 +1,13 @@
 import Ember from 'ember';
 
 var Router = Ember.Router.extend({
-  location: RubricENV.locationType
+  location: RuberryENV.locationType
 });
 
 Router.map(function() {
+  this.resource('rubrics', function() {
+    this.route('show', { path: ':rubricId' });
+  });
 });
 
 export default Router;

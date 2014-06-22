@@ -2,7 +2,7 @@
   "predef": {
     "document": true,
     "window": true,
-    "RubricENV": true
+    "RuberryENV": true
   },
   "browser" : true,
   "boss" : true,
